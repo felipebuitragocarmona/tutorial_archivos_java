@@ -41,6 +41,7 @@ public class Universidad {
     }
 }
 ```
+Ahora se muestra la clase estudiante
 
 ```java
 public class Estudiante {
@@ -66,7 +67,10 @@ public class Estudiante {
 ---
 
 ### 💾 2. Guardar y Leer JSON usando GSON
+Instala la dependencia desde el JAR descargándolo  desde el siguiente enlace:
 
+https://mvnrepository.com/artifact/com.google.code.gson/gson/2.13.2
+ 
 Instala la dependencia de GSON si usas Maven:
 
 ```xml
