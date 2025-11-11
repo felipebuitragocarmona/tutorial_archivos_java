@@ -154,7 +154,7 @@ public class MainJSON {
 
 ### 🎯 Objetivo
 
-Exportar el listado de estudiantes de la universidad a un archivo **CSV** (valores separados por coma).
+Exportar el listado de estudiantes de la universidad a un archivo **CSV** (valores separados por punto y coma).
 
 ---
 
@@ -176,8 +176,8 @@ public class ArchivoCSV {
 
             // Contenido
             for (Estudiante e : uni.getEstudiantes()) {
-                writer.write(e.getId() + "," + e.getNombre() + "," +
-                        e.getCorreo() + "," + e.getFechaNacimiento() + "\n");
+                writer.write(e.getId() + ";" + e.getNombre() + ";" +
+                        e.getCorreo() + ";" + e.getFechaNacimiento() + "\n");
             }
 
             System.out.println("✅ Archivo CSV generado correctamente: " + RUTA);
